@@ -1,4 +1,7 @@
 import React from 'react';
+import Lottie from 'lottie-react'
+import animatedMaps from './../../asset/animation/mapsforsurvey.json'
+
 
 const Provide = () => {
     return (
@@ -85,7 +88,37 @@ const Provide = () => {
                     </div>
                 </div>
             </div>
-            <hr className='text-black' />
+
+
+            <div className='md:flex my-10 py-10'>
+                <div>
+                    <div className=' md:flex justify-start items-center my-4'>
+                        <h1 className='sm:text-xl md:text-3xl lg:text-5xl font-extrabold'>125+</h1>
+                        <div className='mx-10'>
+                            <h3 className='sm:text-xl md:text-2xl lg:text-3xl font-bold'>Creative ideas</h3>
+                            <p className='font-semibold'>Empowers people of team by adding strength to their abilities of teamwork and productivity.</p>
+                        </div>
+                    </div>
+                    <div className=' md:flex justify-start items-center  my-4'>
+                        <h1 className='sm:text-xl md:text-3xl lg:text-5xl font-extrabold'>1020</h1>
+                        <div className='mx-10 '>
+                            <h3 className='sm:text-xl md:text-2xl lg:text-3xl font-bold'>Overseas operations</h3>
+                            <p className='font-semibold'>Empowers people of team by adding strength to their abilities of teamwork and productivity.</p>
+                        </div>
+                    </div>
+                    <div className=' md:flex justify-start items-center  my-4'>
+                        <h1 className='sm:text-xl md:text-3xl lg:text-5xl font-extrabold'>10K</h1>
+                        <div className='mx-10 px-5'>
+                            <h3 className='sm:text-xl md:text-2xl lg:text-3xl font-bold'>Domestic operations</h3>
+                            <p className='font-semibold'>Empowers people of team by adding strength to their abilities of teamwork and productivity.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <Lottie animationData={animatedMaps} />
+                </div>
+            </div>
         </div>
     );
 };

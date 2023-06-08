@@ -8,6 +8,8 @@ import Consultancy from "../Pages/Consultancy/Consultancy";
 import Experts from "../Pages/Experts/Experts";
 import Contact from "../Pages/Contacts/Contact";
 import Faq from "../Pages/FAQ/Faq";
+import Login from "../Pages/Registration/Login";
+import Registration from "../Pages/Registration/Registration";
 
 export const router = createBrowserRouter([
     {
@@ -42,6 +44,14 @@ export const router = createBrowserRouter([
             {
                 path: '/faq',
                 element: <Faq></Faq>
+            },
+            {
+                path: '/login',
+                element: <Login></Login>
+            },
+            {
+                path: '/register',
+                element: <Registration></Registration>
             },
         ]
     }

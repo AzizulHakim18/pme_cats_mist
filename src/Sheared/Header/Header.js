@@ -28,7 +28,8 @@ const Header = () => {
                                     <li><Link to='/experts'>EXPERTS</Link></li>
                                     <li><Link to='/about'>ABOUT</Link></li>
                                     <li><Link to='/contact'>CONTACT</Link></li>
-                                    <li><Link to='/faq'>FAQ</Link></li>
+                                    {/* <li><Link to='/faq'>FAQ</Link></li> */}
+                                    <li><Link to='/login'>Log In</Link></li>
 
                                 </ul>
                             </div>
@@ -50,7 +51,8 @@ const Header = () => {
                                 <li><Link to='/experts'>EXPERTS</Link></li>
                                 <li><Link to='/about'>ABOUT</Link></li>
                                 <li><Link to='/contact'>CONTACT</Link></li>
-                                <li><Link to='/faq'>FAQ</Link></li>
+                                {/* <li><Link to='/faq'>FAQ</Link></li> */}
+                                <li><Link to='/login'>Log In</Link></li>
                             </ul>
                         </div>
                     </div>
